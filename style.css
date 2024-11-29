@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+}
+
+.top-right-corner{
+    display: flex;
+    flex-direction: row;
+    font-family: Georgia, 'Times New Roman', Times, serif; font-size: large;
+}
+
+.top-right{
+    color:aliceblue;
+    flex-direction: row;
+    display: flex;
+    min-width: 500px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-right-corner h4 {
+    flex: 1;
+    color: aliceblue;
+    padding-left: 20px;
+}
+
+.imagine-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.imagine-container{
+    width: 100%;
+    height: auto;
+}
+
+.imagine-container{
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    position:absolute;
+    z-index: -2;
+    top: 0px;
+}
+
+.imagine-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+}
+
+.Welcome{
+    display: flex; 
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 50px; 
+    color: aliceblue;
+    height: 650px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slogan{
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: -39.5px;
+    text-align: center;
+    font-size: 25px;
+}
+.background-white{
+    color: rgb(240, 234, 234);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    justify-content: center;
+    display: flex;
+    background-color: rgb(46, 45, 45);
+    font-size: 30px;
+    background-size: 100px;
+}
+
