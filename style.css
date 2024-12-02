@@ -1,6 +1,11 @@
 body {
     margin: 0;
 }
+#background{
+    background: url(https://cdn.pixabay.com/photo/2020/09/25/13/49/cookies-5601436_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .top-right-corner{
     display: flex;
@@ -71,11 +76,11 @@ body {
 }
 .background-white{
     color: rgb(240, 234, 234);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     justify-content: center;
     display: flex;
     background-color: rgb(46, 45, 45);
     font-size: 30px;
     background-size: 100px;
+    height: 6cm;
 }
-
