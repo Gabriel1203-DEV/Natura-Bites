@@ -9,22 +9,33 @@ body {
 
 .top-right-corner{
     display: flex;
-    flex-direction: row;
-    font-family: Georgia, 'Times New Roman', Times, serif; font-size: large;
 }
 
-.top-right{
+.top-right-corner ul{
+    display: flex;
+    flex-direction: row;
+    font-family: Georgia, 'Times New Roman', Times, serif; font-size: large;
+    list-style: none;
+    font-size: 20px;
+}
+
+.top-right ul a{
     color:aliceblue;
     flex-direction: row;
     display: flex;
-    min-width: 500px;
-    font-family: 'Roboto', sans-serif;
+    min-width: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 .top-right-corner h4 {
     flex: 1;
     color: aliceblue;
     padding-left: 20px;
+    font-size: 20px;
+    min-width: 40%;
 }
 
 .imagine-container {
@@ -82,6 +93,7 @@ body {
     background-color: rgb(46, 45, 45);
     font-size: 35px;
     background-size: 1300px;
-    height: 3cm;
+    height: 4cm;
     align-items: center;
 }
+
